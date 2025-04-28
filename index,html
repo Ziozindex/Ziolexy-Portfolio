@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ziolexy.dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="profile-section">
+                <img src="https://files.catbox.moe/eeyr67.jpeg" alt="Profile Picture" class="profile-img" />
+                <h1 class="animated-title">
+                    <span>z</span><span>i</span><span>o</span><span>l</span><span>e</span><span>x</span><span>y</span><span>.</span><span>d</span><span>e</span><span>v</span>
+                </h1>
+                <p class="role">Web Developer | AI Enthusiast</p>
+                <p class="quote">"The moment you think of giving up, think of the reason why you held on so long." - Makoto Shishio</p>
+                <div class="contact-images">
+                    <a href="https://discord.gg/gZNhfDaNjf" target="_blank"><i class="fab fa-discord fa-2x"></i></a>
+                    <a href="https://github.com/Ziolexy-dev" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://t.me/Ziolexy2" target="_blank"><i class="fab fa-telegram fa-2x"></i></a>
+                </div>
+            </div>
+
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Lunar Cheats</h3>
+                    <p>My first real project was creating the Lunar Cheats Website. It took some time because I was having issues with CSS and JavaScript, but thanks to Stack Overflow, I was able to figure things out!</p>
+                    <a href="https://lunar-cheats-five.vercel.app/" target="_blank">Learn More</a>
+                </div>
+                <div class="project">
+                    <h3>Cosmic Cheats</h3>
+                    <p>My second project was the Cosmic Cheats gateway. I improved my CSS animation skills, such as animating the mouse icon. Again, thanks to Stack Overflow, the community helped me animate it properly!</p>
+                    <a href="https://cosmic-cheats.vercel.app/" target="_blank">Learn More</a>
+                </div>
+                <div class="project">
+                    <h3>Solar Cheats</h3>
+                    <p>My third project was creating the Solar Cheats website. Here, I practiced my carousel and media queries. It took me days, but it was worth it!</p>
+                    <a href="https://solar-cheats-app.vercel.app/" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ziolexy.dev. All rights reserved.</p>
+    </footer>
+
+    <div class="music-control" onclick="toggleMusic()">
+        <i class="fas fa-music"></i>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="https://audio.jukehost.co.uk/HrjNZpNkUPrr24VKgqqwzgtAhQ9fKVWE">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+<script src="main.js"></script>
+</html>
